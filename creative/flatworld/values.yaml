@@ -1,0 +1,16 @@
+---
+resources:
+  requests:
+    memory: 512Mi
+    cpu: 200m
+
+minecraftServer:
+  eula: true
+  gameMode: "creative"
+  generatorSettings: "minecraft:bedrock,10*minecraft:dirt,minecraft:grass_block;minecraft:plains;biome_1,lake"
+  levelType: "FLAT"
+  motd: "FlatPtangWibble"
+  ops: "funkygibbing,FrankieSix"
+  # https://papermc.io/downloads
+  paperDownloadUrl: "https://papermc.io/ci/job/Paper-1.13/513/artifact/paperclip-513.jar"
+  type: "PAPER"

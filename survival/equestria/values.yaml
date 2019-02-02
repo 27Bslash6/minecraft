@@ -6,6 +6,7 @@ resources:
 minecraftServer:
   eula: true
   ops: "funkygibbing"
+  levelSeed: -562179930
   motd: "Ceci n'est un Equestria"
   type: "PAPER"
   # spigotDownloadUrl: "https://hub.spigotmc.org/jenkins/job/BuildTools/lastStableBuild/artifact/target/BuildTools.jar"
