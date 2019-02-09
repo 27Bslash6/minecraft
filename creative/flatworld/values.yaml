@@ -6,7 +6,8 @@ resources:
 
 minecraftServer:
   eula: true
-  gameMode: "creative"
+  forcegameMode: "true"
+  gameMode: "survival"
   generatorSettings: "minecraft:bedrock,10*minecraft:dirt,minecraft:grass_block;minecraft:plains;biome_1,lake"
   levelType: "FLAT"
   motd: "FlatPtangWibble"
